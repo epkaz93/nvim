@@ -10,7 +10,7 @@ return {
                 typeCheckMode = "standard",
                 diagnosticSeverityOverrides = {
                   reportReturnType = "none",
-                  reportOptionalMemberAcess = "none",
+                  reportOptionalMemberAccess = "none",
                 },
               },
             },
