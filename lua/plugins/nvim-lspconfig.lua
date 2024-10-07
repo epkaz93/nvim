@@ -7,6 +7,7 @@ return {
           settings = {
             python = {
               analysis = {
+                diagnosticMode = "workspace",
                 typeCheckMode = "standard",
                 diagnosticSeverityOverrides = {
                   reportReturnType = "none",
