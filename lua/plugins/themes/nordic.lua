@@ -1,6 +1,6 @@
 return {
   "AlexvZyl/nordic.nvim",
-  -- lazy = true,
+  lazy = false,
   name = "nordic",
   opts = {
     swap_backgrounds = true,
