@@ -1,10 +1,11 @@
 return {
   {
     "akinsho/bufferline.nvim",
+    enabled = false,
     opts = {
       options = {
         indicator = {
-          style = "underline",
+          style = "none",
         },
         offsets = {
           {
@@ -15,7 +16,7 @@ return {
         },
         show_buffer_close_icons = false,
         always_show_bufferline = true,
-        separator_style = "slant",
+        separator_style = "thin",
       },
     },
   },
