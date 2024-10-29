@@ -2,6 +2,9 @@ return {
   {
     "akinsho/bufferline.nvim",
     enabled = true,
+    keys = {
+      { "G", "<cmd>BufferLinePick<cr>", mode = { "n" }, desc = "Pick Buffer" },
+    },
     opts = {
       options = {
         indicator = {
