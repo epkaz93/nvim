@@ -32,4 +32,7 @@ require("telescope").setup({
       path_display = filenameFirst,
     },
   },
+  defaults = {
+    prompt_prefix = "   ",
+  },
 })
