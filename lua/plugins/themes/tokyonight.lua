@@ -27,7 +27,7 @@ return {
       }
       hl.TelescopePromptTitle = {
         bg = prompt,
-        fg = prompt,
+        fg = c.fg_dark,
       }
       hl.TelescopePreviewNormal = {
         bg = preview,
