@@ -31,6 +31,9 @@ require("telescope").setup({
     live_grep = {
       path_display = filenameFirst,
     },
+    buffers = {
+      path_display = filenameFirst,
+    },
   },
   defaults = {
     prompt_prefix = "   ",
