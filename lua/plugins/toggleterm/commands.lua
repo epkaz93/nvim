@@ -15,7 +15,7 @@ end
 -- Create new Python Terminal
 vim.api.nvim_create_user_command(
   "PythonTerminal",
-  _new_terminal_factory("Interactive python Terminal", "python -i"),
+  _new_terminal_factory("Interactive Python Terminal", "python -i"),
   { nargs = "?" }
 )
 
