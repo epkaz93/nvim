@@ -41,6 +41,7 @@ return {
     },
     keys = {
       { "<leader>Rb", "<cmd>ReachOpen buffers<CR>", desc = "Buffers" },
+      { "m", "<cmd>ReachOpen buffers<CR>", desc = "Reach Buffer" },
       { "<leader>Rm", "<cmd>ReachOpen marks<CR>", desc = "Marks" },
     },
     init = function()
