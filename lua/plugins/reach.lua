@@ -41,7 +41,7 @@ return {
     },
     keys = {
       { "<leader>Rb", "<cmd>ReachOpen buffers<CR>", desc = "Buffers" },
-      { "m", "<cmd>ReachOpen buffers<CR>", desc = "Reach Buffer" },
+      { "gb", "<cmd>ReachOpen buffers<CR>", desc = "Reach Buffers" },
       { "<leader>Rm", "<cmd>ReachOpen marks<CR>", desc = "Marks" },
     },
     init = function()
@@ -49,6 +49,7 @@ return {
       wk.add({
         { "<leader>R", group = "reach", icon = { icon = "󱙓", color = "green" } },
         { "<leader>Rm", icon = { icon = "󰸕", color = "orange" } },
+        { "gb", icon = { icon = "󱙓", color = "green" } },
       })
     end,
   },
