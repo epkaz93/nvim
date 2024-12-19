@@ -12,6 +12,7 @@ return {
                 diagnosticSeverityOverrides = {
                   reportReturnType = "none",
                   reportOptionalMemberAccess = "none",
+                  reportMissingModuleSource = "none",
                 },
               },
             },
