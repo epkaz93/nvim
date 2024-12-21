@@ -1,6 +1,7 @@
 return {
   {
     "toppair/reach.nvim",
+    enabled = false,
     opts = {
       handle = "auto", -- 'bufnr' or 'dynamic' or 'auto'
       show_icons = true,

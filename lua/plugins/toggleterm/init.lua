@@ -1,6 +1,7 @@
 return {
   {
     "akinsho/toggleterm.nvim",
+    enabled = false,
     config = true,
     keys = {
       { "<leader>ts", "<cmd>TermSelect<CR>", desc = "Select Terminal" },
